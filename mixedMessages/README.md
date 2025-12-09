@@ -1,0 +1,4 @@
+For this project, you will build a message generator program. Every time a user runs a program, they should get a new, randomized output. You’re welcome to take the project in a couple of different forms, like an astrology generator, inspirational message, or nonsensical jokes. To make your program truly random, the message that it outputs should be made up of at least three different pieces of data. Take what you know of JavaScript syntax so far to build the program and customize it to your liking.
+
+파파고
+이 프로젝트를 위해 메시지 생성 프로그램을 구축합니다. 사용자는 프로그램을 실행할 때마다 새로운 무작위 출력을 받아야 합니다. 점성술 생성기, 영감을 주는 메시지 또는 말도 안 되는 농담과 같은 몇 가지 형태로 프로젝트를 진행해도 됩니다. 프로그램을 진정으로 무작위로 만들려면 프로그램이 출력하는 메시지가 최소 세 가지 다른 데이터로 구성되어야 합니다. 지금까지 알고 있는 JavaScript 구문을 사용하여 프로그램을 빌드하고 원하는 대로 사용자 지정할 수 있습니다.
