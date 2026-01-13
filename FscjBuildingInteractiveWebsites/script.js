@@ -22,8 +22,9 @@ const filterBooks = (searchValue, books) => {
 };
 
 // Empty the book list container, iterate over list of filtered books, return list of books formatted as HTML using the function in `helper.js` 
-const structureBooksAsHtml = () => {
-
+const structureBooksAsHtml = (books) => {
+  // The `structureBooksAsHtml()` function takes a list of books as a parameter, iterates over the list, formats them as HTML using the `structureBookAsHtml()` helper function, and returns an array of formatted book elements.
+  return books.map((book) => structureBookAsHtml(book));
 };
 
 // Handler triggered when a user clickers the "Search" button. Chains previously defined functions together to filter books based on the search value, formats the books as HTML and renders them to the DOM
