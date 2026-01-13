@@ -1,11 +1,11 @@
 // Click handler for search button
 const captureSearchValue = () => {
-
+  return document.getElementById("search-bar").value;
 };
 
 // Filter books based on search input
-const filterBooks = () => {
-
+const filterBooks = (searchValue, books) => {
+    
 };
 
 // Empty the book list container, iterate over list of filtered books, return list of books formatted as HTML using the function in `helper.js` 

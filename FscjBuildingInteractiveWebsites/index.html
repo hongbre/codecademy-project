@@ -8,9 +8,14 @@
   <body>
     <h1>Book Finder</h1>
     <input id="search-bar" type="text" placeholder="Search for books by tags">
-    <button class="btn" id="search-btn">Search</button>
+    <button class="btn" id="search-btn" onclick="">Search</button>
     <div id="bookList">
       <!-- List of books will be rendered here -->
     </div>
   </body>
+  <script>
+    document.getElementById("search-btn").addEventListener("click", function() {
+        window.alert(captureSearchValue());
+    });
+  </script>
 </html>
