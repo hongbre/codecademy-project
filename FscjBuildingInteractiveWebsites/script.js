@@ -28,12 +28,17 @@ const structureBooksAsHtml = (books) => {
 };
 
 // Handler triggered when a user clickers the "Search" button. Chains previously defined functions together to filter books based on the search value, formats the books as HTML and renders them to the DOM
-const searchBtnClickHandler = () => {
-
+const searchBtnClickHandler = (books) => {
+  // The `searchBtnClickHandler()` function is triggered when a user clicks the search button. 
+  // It takes in a list of books as a parameter and integrates the individual functions that make up the app to render a list of books to the DOM that matches the search input when the search button is clicked.
+  const container = document.querySelector("#bookList");
+  container.innerHTML = "";
+  structureBooksAsHtml(filterBooks(captureSearchValue(), books))
+    .forEach((book) => container.appendChild(book));
 }
 
 // Grab search button from the DOM
-
+const searchBtn = document.getElementById("search-btn")
 
 // Attach an event listener to the search button
 searchBtn.addEventListener("click", () => { searchBtnClickHandler(books) });
