@@ -56,3 +56,14 @@ const blog = (
   	</article>    
   </div>
 );
+
+// Rendering JSX
+// npm의 vite@latest로 Project 생성하고, 해당 내용을 각각 app.jsx, main.jsx로 작성
+// npm run dev로 Codecademy 화면과 동일하게 확인 가능
+
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<h1>Hello world</h1>);
