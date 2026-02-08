@@ -15,3 +15,15 @@ const myArticle = <article></article>;
 // Give the '<p>' stored in 'p2' an 'id' attribute of 'small'.
 const p1 = <p id='large'>foo</p>;
 const p2 = <p id='small'>bar</p>;
+
+// Nested JSX
+// 1. Declare a new variable named 'myDiv'. Set 'myDiv' equal to a JSX '<div>' element.
+// Wrap the '<div></div>' in parentheses, and use indentation and line breaks like in the examples. 
+// In between the '<div></div>' tags, nest an '<h1></h1>' containing the text 'Hello world'.
+const myDiv = ( // element를 중첩시킬 때는 ()로 묶어줘야 한다.
+  <div>
+    <h1>
+      Hello world
+    </h1>
+  </div>
+);
