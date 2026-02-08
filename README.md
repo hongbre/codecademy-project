@@ -1,3 +1,5 @@
-# 뭘까요
+# Codecademy
 
-Codecademy 학습 중 나오는 프로젝트 수행
+## (Career Path) Full-Stack Engineer
+
+Codecademy Full-Stack Engineer 학습 중
