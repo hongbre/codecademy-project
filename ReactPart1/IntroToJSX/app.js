@@ -92,3 +92,8 @@ const myList = (
 );
 
 root.render(myList);
+
+// The Virtual DOM
+// 변경된 DOM 요소만 업데이트한다.
+// 따라서 동일한 'root.render'를 두 번 연속으로 렌더링하면 두 번재 렌더링은 아무런 작업도 수행하지 않는다.
+// 블로그에 따로 정리
