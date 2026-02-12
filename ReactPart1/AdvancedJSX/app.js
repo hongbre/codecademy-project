@@ -11,3 +11,41 @@
 const myDiv = <div className="big">I AM A BIG DIV</div>;
 
 root.render(myDiv);
+
+// Self-Closing Tags
+// In app.js, fix the broken JSX by adding slashes to all of the self-closing tags.
+
+// 대부분의 HTML Element는 여는 태그와 닫는 태그 두 개를 사용한다.
+// 하지만 <img>나 <input> 같은 일부 HTML Element는 하나의 태그만 사용한다.
+// 'Self-Closing Tags(자체 닫힘 태그)'인데, HTML에서는 <br>이나 <br />이나 같지만,
+// JSX에서는 <br>이라고 하면 오류다. 반드시 슬래시(/)를 포함해야한다.
+
+/* Before
+const profile = (
+  <div>
+    <h1>John Smith</h1>
+    <img src="images/john.png">
+    <article>
+      My name is John Smith.
+      <br>
+      I am a software developer.
+      <br>
+      I specialize in creating React applications.
+    </article>
+  </div>
+);
+*/
+
+const profile = (
+  <div>
+    <h1>John Smith</h1>
+    <img src="images/john.png" />
+    <article>
+      My name is John Smith.
+      <br />
+      I am a software developer.
+      <br />
+      I specialize in creating React applications.
+    </article>
+  </div>
+);
