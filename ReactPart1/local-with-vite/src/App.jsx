@@ -3,6 +3,7 @@ import React from 'react';
 function App() {
   //return <h1>Hello world</h1>;
   
+  /*
   const myList = (
     <ul>
       <li>foo</li>
@@ -11,6 +12,11 @@ function App() {
   );
 
   return myList;
+  */
+
+  const myDiv = <div className="big">I AM A BIG DIV</div>;
+
+  return myDiv;
 }
 
 export default App;
