@@ -67,3 +67,10 @@ import { createRoot } from 'react-dom/client';
 const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(<h1>Hello world</h1>);
+
+// Rendering JSX Explained
+// 1. Below the import statements, 
+// define a constant called 'container' and set its values equal to the expression below:
+// 2. Next, define a constant called 'root' and set its value equal to the expression below:
+// 3. Finally, paste the following expression to render some content:
+// 이게 위랑 똑같다.
