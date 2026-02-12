@@ -14,9 +14,13 @@ function App() {
   return myList;
   */
 
+  /*
   const myDiv = <div className="big">I AM A BIG DIV</div>;
 
   return myDiv;
+  */
+
+  return <h1>2 + 3</h1>;
 }
 
 export default App;

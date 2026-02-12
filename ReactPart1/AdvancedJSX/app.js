@@ -49,3 +49,10 @@ const profile = (
     </article>
   </div>
 );
+
+// JavaScript In Your JSX In Your JavaScript
+// 1. Starting on line 7, carefully write the following code.
+// What do you think will appear in the browser?
+
+// 그대로 '2 + 3'이라고 나온다.
+root.render(<h1>2 + 3</h1>);
