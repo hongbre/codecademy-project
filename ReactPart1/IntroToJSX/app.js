@@ -74,3 +74,21 @@ root.render(<h1>Hello world</h1>);
 // 2. Next, define a constant called 'root' and set its value equal to the expression below:
 // 3. Finally, paste the following expression to render some content:
 // 이게 위랑 똑같다.
+
+// Passing a Variable to render()
+// 1. On line 7, declare a variable named 'myList'. 
+// Set 'myList' equal to a JSX '<ul>' element. Wrap your '<ul></ul>' tags in parentheses.
+// Add several '<li>' elements in between your '<ul></ul>' tags. 
+// Put some text in each '<li></li>' tags. 
+// Use line breaks and indentations similar to the above example.
+// 2. At the bottom of the file, use 'root' and call its 'render()' method with 'myList' as an argument.
+// Feel free to use the example code as a guide.
+
+const myList = (
+  <ul>
+    <li>foo</li>
+    <li>bar</li>
+  </ul>
+);
+
+root.render(myList);
